@@ -1,0 +1,19 @@
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+span{
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
