@@ -46,3 +46,13 @@
 .actor-3{
     background-image: url('../../assets/jimGordon.webp');    
 }
+
+@media(max-width: 728px){
+    .cards-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .actor-1{
+        background-position: 64%;
+    }
+}

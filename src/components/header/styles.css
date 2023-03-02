@@ -15,13 +15,13 @@ ul{
     justify-content: space-between;
 }
 
-li{
+.listitem{
     list-style: none;
     color: aliceblue;
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Kdam Thmor Pro';
 }
 
 li:hover{
@@ -31,4 +31,10 @@ li:hover{
 .logo{
     width: 150px;
     height: auto;
+}
+
+@media(max-width: 728px){
+    nav{
+        display: none;
+    }
 }

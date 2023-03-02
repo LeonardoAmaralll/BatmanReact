@@ -60,3 +60,20 @@
     width: 10%;
     background-color: #292826;
 }
+
+@media(max-width: 728px){
+    .comment-section{
+        flex-direction: column;
+    }
+
+    .comment{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 320px){
+    .comment{
+        min-width: 320px;
+    }
+}

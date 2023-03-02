@@ -68,3 +68,20 @@ figure{
     margin-inline-start: 0px;
     margin-inline-end: 0px
 }
+
+@media(max-width: 728px){
+    .pictures{
+        height: auto;
+        min-width: 400px;
+    }
+
+    .pictures-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pic{
+        width: 49%;
+        height: 50%;
+    }
+}

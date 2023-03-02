@@ -29,3 +29,32 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
     width: 70%;
 }
+
+@media(max-width: 728px){
+    .content{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .trailer{
+        width: 70%;
+    }
+
+    #sinopse{
+        margin: 0px;
+        width: 90%;
+    }
+
+    #description{
+        font-size: 13px;
+        width: 90%;
+    }
+
+
+}
+
+@media(max-width: 1200px){
+    .content{
+        width: 90%;
+    }
+}

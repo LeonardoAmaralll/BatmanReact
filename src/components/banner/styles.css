@@ -4,3 +4,12 @@
     background-size: cover;
     background-position: 50% 50%;
 }
+
+@media(max-width: 728px){
+    #banner{
+        background-position: 40%;
+        width: 100%;
+        background-size: auto;
+        min-width: 400px;
+    }
+}
